@@ -2,14 +2,7 @@ import math
 
 def initPrint():
     print(" x  -------------------------------------------------------------------------------- sin(x)")
-def transform(degree):
-    textDegree = str(degree)
-    temp = ""
-    for i in range(3-len(textDegree)):
-        temp+="0"
-    temp+=textDegree
 
-    return temp
 
 def starPrint(lenBlank, result):
     for i in range(lenBlank):
