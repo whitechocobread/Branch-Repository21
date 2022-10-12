@@ -1,4 +1,7 @@
+import math
 
+def initPrint():
+    print(" x  -------------------------------------------------------------------------------- sin(x)")
 def transform(degree):
     textDegree = str(degree)
     temp = ""
